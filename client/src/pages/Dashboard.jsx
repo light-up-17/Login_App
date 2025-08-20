@@ -33,7 +33,7 @@ export default function Dashboard() {
       {user ? (
         <>
           <p>
-            Welcome back, <strong>{user.name}</strong>! 🎉
+            Welcome back, <strong>{user.name}</strong>!
           </p>
           <button
             onClick={handleLogout}
